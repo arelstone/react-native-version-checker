@@ -1,9 +1,10 @@
-# src
-# coverage
-# .github
-# .vscode
-# *.config.(j|t)s
-# .eslintrc
-# .eslintignore
-# tsconfig.json
-# .env*
+src
+coverage
+.github
+.vscode
+*.config.(j|t)s
+.eslintrc
+.eslintignore
+tsconfig.json
+.env*
+!dist
