@@ -1,4 +1,10 @@
 # @arelstone/react-native-versionchecker
+
+![npm (scoped)](https://shields.cdn.bka.li/npm/v/@arelstone/react-native-version-checker?label=version&style=for-the-badge)
+![npm](https://shields.cdn.bka.li/npm/dt/@arelstone/react-native-version-checker?style=for-the-badge)
+![GitHub issues](https://shields.cdn.bka.li/github/issues/arelstone/react-native-version-checker?style=for-the-badge)
+![GitHub pull requests](https://shields.cdn.bka.li/github/issues-pr/arelstone/react-native-version-checker?style=for-the-badge)
+
 Ever needed to check if your app is up to date? No fear, `react-native-version-checker` is here!
 
 This is a pure javascript implementation, so it will work with both pure [react native](https://reactnative.dev/) and [expo](https://expo.dev/)
