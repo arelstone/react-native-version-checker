@@ -1,14 +1,16 @@
 # @arelstone/react-native-versionchecker
-<!-- Please add a description here -->
+Ever needed to check if your app is up to date? No fear, `react-native-version-checker` is here!
+
+This is a pure javascript implementation, so it will work with both pure [react native](https://reactnative.dev/) and [expo](https://expo.dev/)
 
 ## Installation
 Yarn:
 ```sh
-yarn add @arelstone/react-native-versionchecker
+yarn add @arelstone/react-native-version-checker
 ```
 npm:
 ```sh
-npm install @arelstone/react-native-versionchecker
+npm install @arelstone/react-native-version-checker
 ```
 
 ## Usage
