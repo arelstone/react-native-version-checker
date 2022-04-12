@@ -1,0 +1,22 @@
+{
+	"desc": {
+		"prefix": "desc",
+		"description": "Scaffold a description for a test",
+		"scope": "javascript,typescript,typescriptreact",
+		"body": [
+			"describe('${1:Describe your test case}', () => {",
+			"  $0",
+			"})"
+		]
+	},
+	"it": {
+		"prefix": "it",
+		"description": "Scaffold a single testcase",
+		"scope": "javascript,typescript,typescriptreact",
+		"body": [
+			"it('should ${1:what is expected to happen}', () => {",
+			"  $0",
+			"})"
+		]
+	}
+}

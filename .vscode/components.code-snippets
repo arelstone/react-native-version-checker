@@ -1,0 +1,20 @@
+{
+    "React component": {
+        "prefix": "component",
+        "description": "Scaffold a functional component for React (Typescript)",
+        "scope": "javascriptreact,typescriptreact",
+        "body": [
+            "import { FC } from 'react'",
+            "",
+            "interface Props {",
+            "  $2",
+            "}",
+            "",
+            "export const ${1:Component}: FC<Props> = ({$3}) => {",
+            "  return (",
+            "    $0",
+            "  )",
+            "}"
+        ],
+    }
+}

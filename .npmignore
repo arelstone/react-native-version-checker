@@ -1,0 +1,10 @@
+src
+coverage
+.github
+.vscode
+*.config.js
+.eslintrc
+.eslintignore
+tsconfig.json
+tsconfig.build.json
+.env*

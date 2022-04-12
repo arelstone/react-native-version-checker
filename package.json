@@ -1,0 +1,32 @@
+{
+  "name": "@arelstone/react-native-versionchecker",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint --ext .ts",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "homepage": "https://github.com/arelstone/react-native-versionchecker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arelstone/react-native-versionchecker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arelstone/react-native-versionchecker/issues"
+  },
+  "engines": {
+    "node": ">= 16"
+  },
+  "devDependencies": {
+    "@arelstone/eslint-config-react-native-typescript": "^1.1.2",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.23",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
