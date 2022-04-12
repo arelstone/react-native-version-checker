@@ -36,6 +36,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: [setup]
     steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
       - run: yarn build
     
   linting:
@@ -43,6 +45,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: [setup]
     steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
       - run: yarn lint
   
   testing:
@@ -50,5 +54,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [setup]
     steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
       - run: yarn test --passWithNoTests
       
