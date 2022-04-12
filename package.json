@@ -1,6 +1,6 @@
 {
   "name": "@arelstone/react-native-version-checker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pure Javascript implementation to check if you got a new app version available",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,13 +9,13 @@
     "test": "jest",
     "build": "tsc"
   },
-  "homepage": "https://github.com/arelstone/react-native-versionchecker",
+  "homepage": "https://github.com/arelstone/react-native-version-checker",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arelstone/react-native-versionchecker.git"
+    "url": "git+https://github.com/arelstone/react-native-version-checker.git"
   },
   "bugs": {
-    "url": "https://github.com/arelstone/react-native-versionchecker/issues"
+    "url": "https://github.com/arelstone/react-native-version-checker/issues"
   },
   "engines": {
     "node": ">= 16"
