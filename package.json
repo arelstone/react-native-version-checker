@@ -1,6 +1,6 @@
 {
   "name": "@arelstone/react-native-version-checker",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Pure Javascript implementation to check if you got a new app version available",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,6 +20,18 @@
   "engines": {
     "node": ">= 16"
   },
+  "files": [
+    "!src",
+    "!coverage",
+    "!.github",
+    "!.vscode",
+    "!.eslintrc",
+    "!.eslintignore",
+    "!tsconfig.json",
+    "!.env*",
+    "!*.config.ts",
+    "!*.config.js"
+  ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
