@@ -1,6 +1,6 @@
 {
   "name": "@arelstone/react-native-version-checker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Pure Javascript implementation to check if you got a new app version available",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
