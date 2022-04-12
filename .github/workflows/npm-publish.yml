@@ -31,6 +31,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-scripts
       - run: yarn build
     
   lint:
@@ -40,6 +42,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-scripts
       - run: yarn lint
   
   test:
@@ -49,6 +53,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-scripts
       - run: yarn test --passWithNoTests
       
   publish:
@@ -58,6 +64,8 @@ jobs:
     steps: 
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-scripts
       - name: Publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
@@ -71,6 +79,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-scripts
       - name: Extract version from package.json
         id: extract_version
         uses: Saionaro/extract-package-version@v1.1.1

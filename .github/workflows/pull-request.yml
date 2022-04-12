@@ -38,6 +38,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-scripts
       - run: yarn build
     
   linting:
@@ -47,6 +49,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-scripts
       - run: yarn lint
   
   testing:
@@ -56,5 +60,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile --ignore-scripts
       - run: yarn test --passWithNoTests
       
