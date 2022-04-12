@@ -1062,13 +1062,6 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
-axios@^0.26.1:
-  version "0.26.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.26.1.tgz#1ede41c51fcf51bbbd6fd43669caaa4f0495aaa9"
-  integrity sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==
-  dependencies:
-    follow-redirects "^1.14.8"
-
 babel-eslint@^10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-10.1.0.tgz#6968e568a910b78fb3779cdd8b6ac2f479943232"
@@ -1925,11 +1918,6 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.5.tgz#76c8584f4fc843db64702a6bd04ab7a8bd666da3"
   integrity sha512-WIWGi2L3DyTUvUrwRKgGi9TwxQMUEqPOPQBVi71R96jZXJdFskXEmf54BoZaS1kknGODoIGASGEzBUYdyMCBJg==
 
-follow-redirects@^1.14.8:
-  version "1.14.9"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
-  integrity sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==
-
 form-data@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-3.0.1.tgz#ebd53791b78356a99af9a300d4282c4d5eb9755f"
@@ -2570,25 +2558,6 @@ jest-message-util@^27.5.1:
     pretty-format "^27.5.1"
     slash "^3.0.0"
     stack-utils "^2.0.3"
-
-jest-mock-axios@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/jest-mock-axios/-/jest-mock-axios-4.5.0.tgz#9862bcbea6c0f9c42bc8a125169eaeea514b2f56"
-  integrity sha512-AVrXkFS4psXtuR63J3SFOIpn6VQJHb3khuWJG+yKmSOAvY3jltAkBivV99QTWE+BA6kBYGGUojk6AGE177F8Gw==
-  dependencies:
-    synchronous-promise "^2.0.15"
-
-jest-mock-fetch@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/jest-mock-fetch/-/jest-mock-fetch-2.0.5.tgz#066530d7627077ae84d3dd91ae1d89127213a3f7"
-  integrity sha512-SqjzvjLgehVvrhweq9r2pLxlz3ZwPC2p14yTZFxy+bejE+jDgpV+0aw/oysP088wlFbzEl3TRy0gWIYY25vVEA==
-  dependencies:
-    jest-mock-promise "^2.0.2"
-
-jest-mock-promise@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/jest-mock-promise/-/jest-mock-promise-2.0.2.tgz#560d2617d8d92c2e9be5ea03a8ede6557eb5ee34"
-  integrity sha512-JD5zcuoagmSJ+Gb05iD8o+Ze/viWLzI7QnrVY3Q8FyDVGUH5aXxZON+u7S9ouAt59sLNR97dSMWGezfTkkb5hg==
 
 jest-mock@^27.5.1:
   version "27.5.1"
@@ -3629,11 +3598,6 @@ symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
-
-synchronous-promise@^2.0.15:
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/synchronous-promise/-/synchronous-promise-2.0.15.tgz#07ca1822b9de0001f5ff73595f3d08c4f720eb8e"
-  integrity sha512-k8uzYIkIVwmT+TcglpdN50pS2y1BDcUnBPK9iJeGu0Pl1lOI8pD6wtzgw91Pjpe+RxtTncw32tLxs/R0yNL2Mg==
 
 terminal-link@^2.0.0:
   version "2.1.1"
