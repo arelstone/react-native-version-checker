@@ -14,5 +14,5 @@ export abstract class BaseProvider {
 
 
         return Promise.resolve(response);
-    }
+    };
 }

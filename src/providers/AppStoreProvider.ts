@@ -14,7 +14,7 @@ type AppStoreResponse = {
 export class AppStoreProvider extends BaseProvider  implements IProvider {
     static storeUrl = ({countryCode, packageName}: BaseOptions) => {
         return `https://itunes.apple.com/${countryCode.toLowerCase()}/lookup?bundleId=${packageName}&date=${new Date().getTime()}`;
-    }
+    };
 
     async getVersion({
         packageName, countryCode = 'US', ignoreErrors = true, fetchOptions,

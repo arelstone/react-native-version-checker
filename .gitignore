@@ -1,37 +1,7 @@
 node_modules
+.jest
+coverage
 dist
-build
-
-# Tests
-/coverage
-/.nyc_output
-
-# Development
-.env
-.env.*
-!.env.*.template
-docker-compose.override.yml
-
-# logs
-*.log
-
-
-# OS
+*.tgz
+.env*
 .DS_Store
-
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/*.code-snippets
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json

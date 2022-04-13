@@ -1,10 +1,13 @@
+.github
 src
 coverage
-.github
+
+jest.setup.js
+tsconfig.jest.json
+tsconfig.json
 .vscode
-*.config.(j|t)s
+*.config.js
 .eslintrc
 .eslintignore
-tsconfig.json
 .env*
-!dist
+
