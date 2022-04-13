@@ -5,9 +5,9 @@
 ![GitHub issues](https://shields.cdn.bka.li/github/issues/arelstone/react-native-version-checker?style=for-the-badge)
 ![GitHub pull requests](https://shields.cdn.bka.li/github/issues-pr/arelstone/react-native-version-checker?style=for-the-badge)
 
-Ever needed to check if your app is up to date? No fear, `react-native-version-checker` is here!
+Ever needed to check if your app is up to date? No fear, `@arelstone/react-native-version-checker` is here!
 
-This is a pure javascript implementation, so it will work with both pure [react native](https://reactnative.dev/) and [expo](https://expo.dev/)
+This is a pure javascript implementation, meaing it will work with both pure [react native](https://reactnative.dev/) and [expo](https://expo.dev/)
 
 ## Installation
 Yarn:
@@ -21,7 +21,7 @@ npm install @arelstone/react-native-version-checker
 
 ## Usage
 ```tsx
-import { View, Button, Alert, Linking } from 'react-native';
+import { Alert, Linking } from 'react-native';
 import { VersionChecker } from '@arelstone/react-native-version-checker'
 
 
