@@ -6,7 +6,7 @@ export class PlayStoreProvider extends BaseProvider implements IProvider {
 
     static storeUrl = ({countryCode, packageName}: BaseOptions) => {
         return `https://play.google.com/store/apps/details?id=${packageName}&hl=${countryCode}`;
-    }
+    };
 
     async getVersion({
         packageName, ignoreErrors = true, countryCode = 'US', fetchOptions,

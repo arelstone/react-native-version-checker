@@ -8,7 +8,7 @@ export const needsUpdate = async (
     const { url, version } = await Provider.getVersion(options);
 
     return {
-        updateNeeded: compare(currentVersion, version, '<='),
+        updateNeeded: compare(currentVersion, version, '<'),
         url,
         currentVersion,
         version,
