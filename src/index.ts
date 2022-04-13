@@ -40,14 +40,12 @@ export const Provider = Platform.select({
     android: new PlayStoreProvider(),
 })!;
 
-export const appStoreUrl = AppStoreProvider.storeUrl;
-export const platStoreUrl = PlayStoreProvider.storeUrl;
-
 export const VersionChecker = {
     needsUpdate,
     getLatestVersion,
-    appStoreUrl,
-    platStoreUrl,
+    getStoreUrl: Provider.storeUrl,
+    appStoreUrl: new AppStoreProvider().storeUrl,
+    platStoreUrl: new PlayStoreProvider().storeUrl,
     compare,
     provider: Provider,
 };

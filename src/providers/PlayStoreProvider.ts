@@ -4,7 +4,7 @@ import { BaseOptions, GetVersionOptions, GetVersionResponse, IProvider } from '.
 
 export class PlayStoreProvider extends BaseProvider implements IProvider {
 
-    static storeUrl = ({countryCode, packageName}: BaseOptions) => {
+    storeUrl = ({countryCode, packageName}: BaseOptions) => {
         return `https://play.google.com/store/apps/details?id=${packageName}&hl=${countryCode}`;
     };
 
@@ -19,7 +19,7 @@ export class PlayStoreProvider extends BaseProvider implements IProvider {
                 });
             }
         
-            const url = PlayStoreProvider.storeUrl({packageName, countryCode});
+            const url = this.storeUrl({packageName, countryCode});
 
             const request = await this.fetch(url, fetchOptions);
 
