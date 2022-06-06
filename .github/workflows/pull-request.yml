@@ -9,7 +9,7 @@ jobs:
     name: Ensure that title uses gitmoji
     runs-on: ubuntu-latest
     steps:
-      - uses: paralenz/actions/gitmoji@v2.1.4
+      - uses: paralenz/actions/gitmoji@v2.1.6
 
   main:
     runs-on: ubuntu-latest
